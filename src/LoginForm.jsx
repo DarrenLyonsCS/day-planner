@@ -1,10 +1,12 @@
 import React from 'react'
+import './index.css'
+import './LoginForm.css'
 import { FaUser, FaLock } from "react-icons/fa";
 
 const LoginForm = () => {
   return (
-    <div className='login-form'>
-        <div className="formLogin">
+    <div className='login-form-wrapper'>
+        <div className="formLogin login">
             <form action=''>
                 <h1>Login</h1>
                 <div className='user-Input'>

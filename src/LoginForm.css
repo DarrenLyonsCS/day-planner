@@ -1,0 +1,18 @@
+.login-form-wrapper {
+    position: relative;
+    width: 420px;
+    height: 450px;
+    background:teal ;
+    border-radius: 10px;
+    color: white;
+}
+
+.login-form-wrapper .formLogin {
+    width: 100%;
+    padding: 40px;
+}
+
+form h1 {
+    font-size: 36px;
+    text-align: center;
+}
